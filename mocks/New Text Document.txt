@@ -1,0 +1,42 @@
+Serverless: Stack update finished...
+Service Information
+service: photo-app-api
+stage: prod
+region: us-east-1
+stack: photo-app-api-prod
+api keys:
+  None
+endpoints:
+  POST - https://en8anrkoab.execute-api.us-east-1.amazonaws.com/prod/notes
+  GET - https://en8anrkoab.execute-api.us-east-1.amazonaws.com/prod/notes
+  GET - https://en8anrkoab.execute-api.us-east-1.amazonaws.com/prod/notes
+  PUT - https://en8anrkoab.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
+  DELETE - https://en8anrkoab.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
+functions:
+  create: photo-app-api-prod-create
+  get: photo-app-api-prod-get
+  list: photo-app-api-prod-list
+  update: photo-app-api-prod-update
+  delete: photo-app-api-prod-delete
+
+
+Identity pool name: photo identity pool
+id: us-east-1:f66e280b-b098-4670-bf6d-57d651114704
+
+APi details
+username = sylviatexy@yahoo.com
+password: Uppertexyy667@
+user-pool-id: us-east-_irXxSt4FN
+app client id= hoco16eov616ga2m31uclmiu1
+cognito region = us-east-1
+invoke(api gateway) url: https://en8anrkoab.execute-api.us-east-1.amazonaws.com/prod
+api gateway region: us-east-1
+path-template = '/notes'\
+method ='POST'\
+BODY = '{"content":"hello world", "attachment':"hello.jpg"}'
+
+ { userId: 'us-east-1:796db085-6f1e-45d2-b90c-5735ae60d6d7',
+     roleId: 'b3d0a6e0-6ed7-11e8-b448-a5b9703b5115',
+     content: 'hello world',
+     attachment: 'hello.jpg',
+     createdAt: 1528873334862 } }
